@@ -16,6 +16,10 @@ public class Client {
         }
         return serverString;
     }
+
+    public static void output(OutputStream outputStream, String string) throws IOException{
+        outputStream.write((String).getBytes());
+    }
     public static void main(String[] args) {
         
         
